@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "start": "parcel ./*.html ",
-    "build": "parcel build ./*.html  --dist-dir ./build"
+    "build": "parcel build ./*.html  --dist-dir ./build",
+    "serve": "some-command-to-serve-your-application"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "parcel": "^2.7.0",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
   }
 }
